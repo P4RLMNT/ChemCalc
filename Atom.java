@@ -19,7 +19,7 @@ public class Atom {
 	private float aMassX;
 	private int meltingPoint; // Celcius
 	private int boilingPoint; // Celcius
-	private int roomTempState; // -1 = solid, 0 = liquid, 1 = gas
+	private String roomTempState; // -1 = solid, 0 = liquid, 1 = gas
 	private float density; // g/mL
 	private float electroneg;
 	
@@ -142,11 +142,11 @@ public class Atom {
 		this.boilingPoint = boilingPoint;
 	}
 
-	public int getRoomTempState() {
+	public String getRoomTempState() {
 		return roomTempState;
 	}
 
-	public void setRoomTempState(int roomTempState) {
+	public void setRoomTempState(String roomTempState) {
 		this.roomTempState = roomTempState;
 	}
 
